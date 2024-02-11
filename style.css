@@ -1,0 +1,939 @@
+/*Basick-setup*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.last{
+    margin-bottom: 300px;
+}
+.button-part{
+    margin-left: 50px;
+    width: 310px;
+    float: left;
+}
+h1{
+    margin-bottom: 20px;
+}
+.button{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    color: #333;
+    border: 2px solid gray;
+    padding: 15px 20px;
+    
+}
+/*button part one*/
+.button-part-one .one-two a{
+    background: gray;
+    color: red;
+}
+.button-part-one .one-three a{
+    background:black;
+    color: #fff;
+    border-radius: 8px;
+}
+.button-part-one .one-four a{
+    background: blue;
+    color: #fff;
+    border-radius: 8px;
+}
+.button-part-one .one-four a:hover{
+    background: yellow;
+    color: #333;
+}
+.button-part-one .one-five a{
+    background: green;
+    color: #fff;
+    border-radius: 8px;
+}
+.button-part-one .one-five a:hover{
+    box-shadow: 3px 3px 3px gray;
+}
+.button-part-one .one-six a{
+    background: violet;
+    color: #fff;
+    border-radius: 8px;
+}
+.button-part-one .one-six a:hover{
+    background: black;
+    box-shadow: 3px 3px 4px rgba(255, 0, 0, 0.5), -3px 0 2px rgba(255, 0,
+0, 0.5);
+}
+.button-part-one .one-seven a{
+    background: indigo;
+    color: #fff;
+}
+.button-part-one .one-seven a:hover{
+    background: #fff;
+    color: #333;
+    box-shadow: 3px 3px 5px gray, -3px -3px 5px gray;
+}
+.button-part-one .one-eight a{
+    background: orange;
+    color: #333;
+    border-radius: 8px;
+}
+.button-part-one .one-eight a:hover{
+    width: 80px;
+    text-align: center;
+    background: blue;
+    color: #fff;
+    box-shadow: 3px 3px 5px gray, -3px -3px 5px gray;
+        
+}
+.button-part-one .one-nine a{
+    background: red;
+    color: #333;
+    border-radius: 8px;
+}
+.button-part-one .one-nine a:hover{
+    width: 40px;
+    text-align: center;
+    background: orange;
+    color: #fff;
+    box-shadow: 3px 3px 5px black, -3px -3px 5px black;
+        
+}
+.button-part-one .one-ten a{
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+}
+.button-part-one .one-ten a:hover{
+    padding: 5px;
+    text-align: center;
+    background: orange;
+    color: #fff;
+    box-shadow: 3px 3px 5px black, -3px -3px 5px black;
+        
+}
+/*button part-2*/
+.button-part-two .two-one a{
+    background: linear-gradient(green,blue);
+    color: #fff;
+}
+.button-part-two .two-two a{
+    background: linear-gradient(orange,green,red);
+    color: #fff;
+    border-radius: 8px;
+}
+.button-part-two .two-three a{
+    background: gray;
+    border-radius: 8px;
+    color: #fff;
+    transition: all .3s;
+}
+.button-part-two .two-three a:hover{
+    background: linear-gradient(blue,orange,gray);
+    color: #333;
+}
+.button-part-two .two-four a{
+    background: radial-gradient(gray,green,red);
+     color: #fff;
+    border-radius: 8px;
+    transition: all .4s;
+}
+.button-part-two .two-four a:hover{
+    background: #fff;
+    color: #333;
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-two .two-five a{
+    border-radius: 8px;
+    transition: all .5s;
+}
+.button-part-two .two-five a:hover{
+    background: radial-gradient(red,green);
+    color: #fff;
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-two .two-six a{
+    background: radial-gradient(orange,blue);
+    color: #fff;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.button-part-two .two-six a:hover{
+    background: linear-gradient(red,green);
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-two .two-seven a{
+    background: conic-gradient(red,blue,yellow);
+    color: #fff;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.button-part-two .two-seven a:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-two .two-eight a{
+    background: radial-gradient(indigo,orange);
+    color: #fff;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.button-part-two .two-eight a:hover{
+    background: conic-gradient(yellow,green,orange,blue);
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-two .two-nine a{
+    background: radial-gradient(red,blue);
+    color: #fff;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.button-part-two .two-nine a:hover{
+    padding: 20px 25px;
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-two .two-ten a{
+    border-radius: 8px;
+    transition: all .5s;
+}
+.button-part-two .two-ten a:hover{
+    padding: 15px;
+    background: gray;
+    color: #fff;
+}
+/*button-part3*/
+.button-part-three .three-one a{
+    background: orange;
+    border-radius: 8px;
+    transition: all 2s;
+   
+}
+.button-part-three .three-one a:hover{
+    box-shadow: 3px 3px 5px gray,-3px -3px 5px gray;
+    opacity: .6;
+}
+.button-part-three .three-two a{
+    background: linear-gradient(to top left,red,green,yellow);
+    border-radius: 8px;
+    color: #fff;
+    transition: all .3s;
+}
+.button-part-three .three-two a:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-three .three-three a{
+    background: linear-gradient(to bottom left,orange,blue,green);
+    color: #fff;
+    border-radius: 8px;
+    transition: all .4s;
+}
+.button-part-three .three-three a:hover{
+    background: linear-gradient(to top left,blue,orange,green);
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-three .three-four a{
+    background: linear-gradient(to top right,yellow,violet,orange);
+    border-radius: 8px;
+    color: #333;
+    transition: all .4s;
+}
+.button-part-three .three-four a:hover{
+    background: radial-gradient(indigo,rgba(255, 0, 0, 0.7),green);
+    color: #fff;
+    box-shadow: 3px 3px 5px orange;
+}
+.button-part-three .three-five a{
+    background: radial-gradient(green,gray,orange);
+    border-radius: 8px;
+    color: #fff;
+    transition: all .5s;
+}
+.button-part-three .three-five a:hover{
+   background: linear-gradient(to top right,yellow,violet,orange);
+    color: #fff;
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-three .three-six a{
+    background: conic-gradient(green,red,orange);
+    border-radius: 8px;
+    color: #fff;
+    transition: all .5s;
+}
+.button-part-three .three-six a:hover{
+   background: linear-gradient(to top right,blue,green,orange);
+    color: #fff;
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-three .three-seven a{
+    background: linear-gradient(to top right,blue,green,orange);
+    color: #fff;
+    transition: all .5s;
+}
+.button-part-three .three-seven a:hover{
+    background: conic-gradient(blue,red,yellow);
+   
+    color: #fff;
+    box-shadow: 3px 3px 5px gray;
+}
+.button-part-three .three-eight a{
+    background: linear-gradient(to top right,blue,green,orange);
+    color: #fff;
+    border-radius: 8px;
+    transition: all .7s;
+}
+.button-part-three .three-eight a:hover{
+    background: conic-gradient(blue,red,yellow);
+   
+    color: #fff;
+    box-shadow: 3px 3px 5px gray;
+    transform: rotate(360deg);
+}
+.button-part-three .three-nine a{
+    background: conic-gradient( blue,green,orange);
+    color: #fff;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.button-part-three .three-nine a:hover{
+    background: conic-gradient(blue,red,yellow);
+   
+    color: #fff;
+    box-shadow: 3px 3px 5px gray;
+    transform: skew(-8deg);
+}
+.button-part-three .three-ten a{
+    background: conic-gradient( blue,green,orange);
+    color: #fff;
+    border-radius: 8px;
+    transition: all .7s;
+}
+.button-part-three .three-ten a:hover{
+    background: radial-gradient(blue,red,yellow);
+    
+    color: #fff;
+    padding: 15px;
+    box-shadow: 3px 3px 5px gray;
+    transform: rotate(360deg);
+}
+/*new=button-part4*/
+
+
+
+.new .btn{
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    width: 131px;
+    border: none;
+   
+}
+.new .content{
+    background: gray;
+    padding: 20px 35px;
+    position: relative;
+    color: #ffff;
+    z-index: 5;
+    overflow: hidden;
+    display: inline-block;
+}
+.new .btn:hover .content{
+    background: none;
+}
+.new .content:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: green;
+    top: 0;
+    left: -50%;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.new .btn:hover .content:before{
+    left: 0;
+}
+.new .content:after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: green;
+    top: 0;
+    right: -50%;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.new .btn:hover .content:after{
+    right: 0;
+}
+/*button2*/
+.new .content2{
+    background: green;
+    padding: 20px 35px;
+    color: #fff;
+    border: 1px solid green;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    display: inline-block;
+}
+.new .btn:hover .content2{
+    background: none;
+    border: none;
+}
+.new .content2:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+    top: 0;
+    left: -100%;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.new .btn:hover .content2:before{
+    left: 0;
+}
+/*button3*/
+.new .content3{
+    background: yellow;
+    padding: 20px 35px;
+    color: red;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+    color: green;
+}
+.new .content3:hover{
+   color: #fff; 
+}
+.new .content3:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: blue;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.new .btn:hover .content3:after{
+   right: 0;
+   
+}
+.new .content4{
+    background: blue;
+    padding: 20px 35px;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    display: inline-block;
+}
+.new .content4:hover{
+    
+    color: red;
+}
+.new .content4:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: gold;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.new .btn:hover .content4:after{
+    top: 0;
+}
+.new .content5{
+    background: red;
+    padding: 20px 35px;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    display: inline-block;
+}
+.new .content5:hover{
+   background: none; 
+}
+.new .content5:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: gray;
+    position: absolute;
+    right: 0;
+    bottom: -100%;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.new .btn:hover .content5:after{
+    bottom: 0;
+}
+
+/*button-part-five*/
+ .btn-basick{
+    border: 1px solid gray;
+    border-radius: 8px;
+   
+}
+
+.button-part-five .btn-one{
+    background: violet;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+   
+}
+.button-part-five .btn-one:before{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right,green,yellow,red);
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 8px 0 0 8px;
+    top: 0;
+    left: -51%;
+    transition: all .5s ease;
+    z-index: -5;
+}
+
+.button-part-five .btn1:hover .btn-one:before{
+    left: 0;
+    border-right: 0;
+}
+.button-part-five .btn-one:after{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left,green,yellow,red);
+    border: 1px solid gray;
+    border-radius: 0 8px 8px 0;
+    position: absolute;
+    top: 0;
+    right: -51%;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-five .btn1:hover .btn-one:after{
+    right: 0;
+    border-left: 0;
+}
+.button-part-five .btn-two{
+    background: blue;
+    color: #fff;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+}
+.button-part-five .btn-two:hover{
+    color: #333;
+}
+.button-part-five .btn-two:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,green,orange,red);
+    position: absolute;
+    top: 0;
+    left: -101%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all .5s ease;
+    z-index: -5;
+    
+}
+.button-part-five .btn:hover .btn-two:before{
+    left: 0;
+   
+}
+.button-part-five .btn-three{
+    background: red;
+    color: #fff;
+    padding: 20px 35px;
+    position: relative;
+    z-index: 5;
+    overflow: hidden; 
+    display: inline-block;
+}
+.button-part-five .btn-three:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,violet,green,blue);
+    position: absolute;
+    top: 0;
+    right: -101%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-five .btn:hover .btn-three:after{
+    right: 0;
+}
+.button-part-five .btn-foure{
+    background: green;
+    color: #fff;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+}
+.button-part-five .btn-foure:hover{
+    color: #333;
+}
+.button-part-five .btn-foure:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:radial-gradient(red,yellow,blue);
+    position: absolute;
+    top: -101%;
+    left: 0;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-five .btn:hover .btn-foure:before{
+    top:0;
+}
+.button-part-five .btn-five{
+    background: yellow;
+   
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+}
+.button-part-five .btn-five:hover{
+    color: #fff;
+}
+
+.button-part-five .btn-five:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:conic-gradient(red,yellow,blue);
+    position: absolute;
+    bottom: -103%;
+    left: 0;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-five .btn:hover .btn-five:before{
+   bottom:0;
+}
+/*button-part-six*/
+.button-part-six .btn-one{
+    background: linear-gradient(red,yellow,blue);
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+}
+.button-part-six .btn-one:hover{
+    box-shadow: 3px 3px 3px black;
+}
+.button-part-six .btn-one:before{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left,#fff,green,blue);
+    position: absolute;
+    top: 0;
+    left: -52%;
+    border: 1px solid gray;
+    border-radius: 8px 0 0 8px;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-six .btn:hover .btn-one:before{
+    left: 0;
+    border-right: none;
+    border-radius: none;
+}
+.button-part-six .btn-one:after{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right,#fff,green,blue);
+    position: absolute;
+    top: 0;
+    right: -52%;
+    border: 1px solid gray;
+    border-radius: 0 8px 8px 0;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-six .btn:hover .btn-one:after{
+    right: 0;
+    border-left: none;
+    
+}
+.button-part-six .btn-two{
+    background: linear-gradient(to left,indigo,green,blue);
+    color: #fff;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+    transition: all .3s ease;
+}
+.button-part-six .btn-two:hover{
+    box-shadow: 3px 3px 3px gray;
+}
+.button-part-six .btn-two:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(red,green,yellow);
+    position: absolute;
+    top: 0;
+    left: -102%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-six .btn:hover .btn-two:before{
+    left: 0;
+    
+}
+.button-part-six .btn-three{
+    background: radial-gradient(red,blue,yellow);
+    color: #fff;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+    transition: all .3s ease;
+}
+.button-part-six .btn-three:hover{
+    box-shadow: 3px 3px 3px gray;
+    color: yellow;
+}
+.button-part-six .btn-three:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(red,green,yellow);
+    position: absolute;
+    top: 0;
+    right: -102%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-six .btn:hover .btn-three:after{
+    right: 0;
+    
+}
+.button-part-six .btn-foure{
+    background: linear-gradient(red,blue,yellow);
+    color: #fff;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+    transition: all .3s ease;
+}
+.button-part-six .btn-foure:hover{
+    box-shadow: 3px 3px 3px gray;
+    color: yellow;
+}
+.button-part-six .btn-foure:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(white,green,yellow);
+    position: absolute;
+    left: 0;
+    top: -102%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-six .btn:hover .btn-foure:after{
+    top: 0;
+    
+}
+.button-part-six .btn-five{
+    background: linear-gradient(red,blue,yellow);
+    color: #fff;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+    transition: all .3s ease;
+}
+.button-part-six .btn-five:hover{
+    box-shadow: 3px 3px 3px gray;
+    color: #333;
+}
+.button-part-six .btn-five:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(white,red,yellow);
+    position: absolute;
+    left: 0;
+    bottom: -102%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all .5s ease;
+    z-index: -5;
+}
+.button-part-six .btn:hover .btn-five:after{
+    bottom: 0;
+    
+}
+/*button-part-seven*/
+.button-part-seven{
+    width: 130px;
+}
+.button-part-seven .btn1{
+    width: 130px;
+    background: red;
+    padding: 25px 0;
+    text-align: center;
+    position: relative;
+    z-index: -10;
+    border: 1px solid red;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    
+    
+}
+
+.button-part-seven .btn-one{
+    z-index: 5;
+    color: #fff;
+}
+
+.button-part-seven .btn1:before{
+    content: "";
+    background: green;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -48%;
+    right: -64%;
+    border: 1px solid red;
+    border-radius: 35px 0 0  0;
+    z-index: -5;
+    transition: all .3s ease;
+}
+.adv .adv1:hover .btn1:before{
+    background: green;
+    top: -2%;
+    left: -2%;
+    border: 1px solid green;
+    border-radius: 0 0 90px 0;
+    
+    
+ }
+
+.button-part-seven .btn2{
+    width: 130px;
+    background: green;
+    padding: 25px 0;
+    text-align: center;
+    position: relative;
+    z-index: -10;
+    border: 1px solid green;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    
+    
+}
+
+.button-part-seven .btn-two{
+    z-index: 5;
+    color: #fff;
+}
+
+.button-part-seven .btn2:before{
+    content: "";
+    background: blue;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -55%;
+    right: -1%;
+    border: 1px solid blue;
+    border-radius: 35px 25px 0  0;
+    z-index: -5;
+    transition: all .3s ease;
+}
+.adv .adv2:hover .btn2:before{
+    background: black;
+    top: -35%;
+    left: -1%;
+    border: 1px solid green;
+    border-radius: 0 0 35px 35px;
+    
+    
+ }
+.adv .btn-three{
+    background: yellow;
+    padding: 20px 35px;
+    position: relative;
+    border: 1px solid yellow;
+    border-radius: 8px;
+    z-index: 5;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.adv .btn-three:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: -80%;
+    border: 2px solid red;
+    border-radius:  0 25px 25px 0;
+    transition: all .5s ease;
+    z-index: -5;
+    
+}
+.adv .btn3:hover .btn-three:before{
+    left: 10%;
+    top: 0;
+    border-radius: 25px 0 0 25px;
+}
+
+
+
+
+
